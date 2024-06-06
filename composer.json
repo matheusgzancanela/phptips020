@@ -1,0 +1,28 @@
+{
+  "name": "matheusgzancanela/phptips020",
+  "description": "MODELO, REGRA DE NEGÓCIO E VALIDAÇÃO DE DADOS | PHP TIPS #020",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*"
+  }
+}
